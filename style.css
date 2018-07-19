@@ -1,0 +1,8 @@
+.tab-content {
+  display: none;
+}
+
+li {
+  list-style-type: none;
+  background-color: moccasin;
+}
