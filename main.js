@@ -1,5 +1,5 @@
 'use strict';
 
-$('.tab-label').on('click', function() {
-  console.log('clicked on tab!');
+$('.tab-label').on('click', function(e) {
+  $(this).next().slideToggle();
 });
